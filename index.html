@@ -73,7 +73,59 @@
 
     </section>
 
-    
+    <footer> <!--Rodapé-->
+
+        
+        <section id="contato">
+            
+            <h2>Contato</h2>
+            
+            <p>Tem um projeto em mente? Entre em contato</p>
+            
+            <address> <!--Endereço/Contato-->
+                E-mail: <a href="mailto:mauriciorenatosarda@gmail.com">mauriciorenatosarda@gmail.com</a> <br> <!--Quebrar a linha-->
+                Telefone: <a href="tel:+5547933805454">(47) 93380-5454</a>
+            </address>
+            
+            <form action=""> <!--Formulário-->
+                
+                <label for="nome">Nome: </label> <!--Cria um rótulo/legenda a um elemento do formulário como o <input>, <textarea> ou <select>-->
+                    <input type="text" name="nome" id="nome" required> <br> <!--Quebrar a linha-->
+                    
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" id="email" required> <br> <!--Quebrar a linha--> <!--Required = Obrigatório-->
+                    
+                    <label for="telefone">Telefone: </label>
+                    <input type="tel" name="telefone" id="telefone"> <br> <!--Quebrar a linha-->
+                    
+                    <label for="assunto">Assunto: </label>
+                    <select name="assunto" id="assunto">
+                        <option value="orcamento">Orçamento</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="outro">Outro</option>
+                    </select>
+
+                    <br> <!--Quebrar a linha-->
+
+                    <label for="mensagem">Mensagem: </label>
+                    <textarea name="mensagem" id="mensagem" cols="50" rows="5" required></textarea> <!--Área de Texto-->
+                    
+                    <br>
+
+                    <input type="checkbox" name="inscricao" id="inscricao"> <!--Caixa de checagem/Caixinha do confere-->
+                    <label for="inscricao">Deseja receber minha newsleter? Fique por dentro!</label>
+                
+                    <br>
+
+                    <input type="submit" value="Enviar mensagem"> <!--Botão de enviar-->
+                
+                </form>
+                
+            </section>
+            
+            <p>Direitos reservados a <a href="https://www.instagram.com/mauriciosardafilho/">Mauricio Renato Sarda Filho</a>©</p>
+        
+        </footer>
     </body>
 
 </html>

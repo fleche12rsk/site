@@ -23,8 +23,9 @@
     <section id="sobre"> <!--Seção/Área/Parte-->
         <h2>Sobre mim</h2>
 
+        <!-- Src = Caminho da imagem. Alt = Alternativa (um texto) se a imagem falhar -->
         <img src="https://media.licdn.com/dms/image/v2/D4D03AQHpnI5Ec-WYSA/profile-displayphoto-scale_400_400/B4DZxil2ZQGQAg-/0/1771180616329?e=1772668800&v=beta&t=lZM5Mjj5mjC9p6zh3U-Na1q4SwA-jllOfxou-QCs1VE"
-            alt="Foto minha" title="Foto de Mauricio"> <!-- Src = Caminho da imagem. Alt = Alternativa (um texto) se a imagem falhar -->
+            alt="Foto minha" title="Foto de Mauricio">
 
         <article> <!--Artigo/Texto-->
 
@@ -66,7 +67,8 @@
             <h3>Portifólio</h3>
 
             <p>
-                Este foi o segundo site que eu desenvolvi. O primeiro site (Landing Page) que eu fiz, foi assistindo tutoriais e vídeos no youtube, e este site é o segundo que eu desenvolvi, aprendendo front-end.
+                Este foi o segundo site que eu desenvolvi. O primeiro site (Landing Page) que eu fiz, foi assistindo
+                tutoriais e vídeos no youtube, e este site é o segundo que eu desenvolvi, aprendendo front-end.
             </p>
 
         </article>
@@ -79,7 +81,7 @@
 
         <table> <!--Tabela-->
 
-            <thead>  <!--Cabeçalho de uma tabela-->
+            <thead> <!--Cabeçalho de uma tabela-->
                 <tr> <!--Linha de tabela-->
                     <th>Tecnologia</th> <!--Colunas-->
                     <th>Nível</th>
@@ -99,7 +101,7 @@
                     <td>Iniciante</td>
                     <td>Experiências com flexbox, grid e animações CSS.</td>
                 </tr>
-                
+
                 <tr>
                     <td>JavaScript</td> <!--Valores das colunas-->
                     <td>Básico</td>
@@ -114,57 +116,58 @@
 
     <footer> <!--Rodapé-->
 
-        
+
         <section id="contato">
-            
+
             <h2>Contato</h2>
-            
+
             <p>Tem um projeto em mente? Entre em contato</p>
-            
+
             <address> <!--Endereço/Contato-->
-                E-mail: <a href="mailto:mauriciorenatosarda@gmail.com">mauriciorenatosarda@gmail.com</a> <br> <!--Quebrar a linha-->
+                E-mail: <a href="mailto:mauriciorenatosarda@gmail.com">mauriciorenatosarda@gmail.com</a> <br>
+                <!--Quebrar a linha-->
                 Telefone: <a href="tel:+5547933805454">(47) 93380-5454</a>
             </address>
-            
+
             <form action=""> <!--Formulário-->
-                
+
                 <label for="nome">Nome: </label> <!--Cria um rótulo/legenda a um elemento do formulário como o <input>, <textarea> ou <select>-->
-                    <input type="text" name="nome" id="nome" required> <br> <!--Quebrar a linha-->
-                    
-                    <label for="email">E-mail: </label>
-                    <input type="email" name="email" id="email" required> <br> <!--Quebrar a linha--> <!--Required = Obrigatório-->
-                    
-                    <label for="telefone">Telefone: </label>
-                    <input type="tel" name="telefone" id="telefone"> <br> <!--Quebrar a linha-->
-                    
-                    <label for="assunto">Assunto: </label>
-                    <select name="assunto" id="assunto">
-                        <option value="orcamento">Orçamento</option>
-                        <option value="duvida">Dúvida</option>
-                        <option value="outro">Outro</option>
-                    </select>
+                <input type="text" name="nome" id="nome" required> <br> <!--Quebrar a linha-->
 
-                    <br> <!--Quebrar a linha-->
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email" required> <br> <!--Quebrar a linha--> <!--Required = Obrigatório-->
 
-                    <label for="mensagem">Mensagem: </label>
-                    <textarea name="mensagem" id="mensagem" cols="50" rows="5" required></textarea> <!--Área de Texto-->
-                    
-                    <br>
+                <label for="telefone">Telefone: </label>
+                <input type="tel" name="telefone" id="telefone"> <br> <!--Quebrar a linha-->
 
-                    <input type="checkbox" name="inscricao" id="inscricao"> <!--Caixa de checagem/Caixinha do confere-->
-                    <label for="inscricao">Deseja receber minha newsleter? Fique por dentro!</label>
-                
-                    <br>
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
 
-                    <input type="submit" value="Enviar mensagem"> <!--Botão de enviar-->
-                
-                </form>
-                
-            </section>
-            
-            <p>Direitos reservados a <a href="https://www.instagram.com/mauriciosardafilho/">Mauricio Renato Sarda Filho</a>©</p>
-        
-        </footer>
-    </body>
+                <br> <!--Quebrar a linha-->
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="50" rows="5" required></textarea> <!--Área de Texto-->
+
+                <br>
+
+                <input type="checkbox" name="inscricao" id="inscricao"> <!--Caixa de checagem/Caixinha do confere-->
+                <label for="inscricao">Deseja receber minha newsleter? Fique por dentro!</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem"> <!--Botão de enviar-->
+
+            </form>
+
+        </section>
+
+        <p>Direitos reservados a <a href="https://www.instagram.com/mauriciosardafilho/">Mauricio Renato Sarda Filho</a>©</p>
+
+    </footer>
+</body>
 
 </html>

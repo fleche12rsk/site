@@ -16,10 +16,10 @@ body {
     border-top: 1px solid #334155;
     color: #7b7b83;
     text-align: center;
-    padding: 3rem;
+    padding: 3em;
     margin: 0;
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 #direitos a {
@@ -28,7 +28,7 @@ body {
 }
 
 #contato {
-    margin-bottom: 3rem;
+    margin-bottom: 3em;
 }
 
 #sobre img {
